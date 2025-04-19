@@ -12,7 +12,7 @@ export function MainNav({ className, ...props }: React.HTMLAttributes<HTMLElemen
 
   return (
     <nav className={cn("flex items-center space-x-4 lg:space-x-6", className)} {...props}>
-      <Link href="/dashboard" className="text-sm font-medium transition-colors hover:text-primary hidden md:block">
+      <Link href="/login" className="text-sm font-medium transition-colors hover:text-primary hidden md:block">
         Dashboard
       </Link>
 
@@ -28,4 +28,3 @@ export function MainNav({ className, ...props }: React.HTMLAttributes<HTMLElemen
     </nav>
   )
 }
-
