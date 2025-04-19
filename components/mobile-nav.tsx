@@ -43,7 +43,7 @@ export function MobileNav() {
         </SheetTrigger>
         <Link href="/dashboard" className="flex items-center gap-2 font-semibold">
           <Building className="h-5 w-5" />
-          <span>Construction Manager</span>
+          <span>Studio1:1</span>
         </Link>
       </div>
       <SheetContent side="left" className="p-0">

@@ -27,7 +27,7 @@ export function UserNav() {
           <Button variant="ghost" className="relative h-8 w-8 rounded-full">
             <Avatar className="h-8 w-8">
               <AvatarImage src="/placeholder-user.jpg" alt="User" />
-              <AvatarFallback>JD</AvatarFallback>
+              <AvatarFallback>ED</AvatarFallback>
             </Avatar>
           </Button>
         </DropdownMenuTrigger>

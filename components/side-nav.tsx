@@ -144,7 +144,7 @@ export function SideNav({ isMobile = false, onNavItemClick, className }: SideNav
           <div className="flex items-center h-16">
             <div className="flex items-center gap-2">
               <Layers className="h-8 w-8 text-primary" />
-              <h1 className="text-xl font-bold">BuildManager</h1>
+              <h1 className="text-xl font-bold">Studio1:1</h1>
             </div>
           </div>
 
