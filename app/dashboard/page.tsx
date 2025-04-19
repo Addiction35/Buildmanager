@@ -13,14 +13,14 @@ export default function DashboardPage() {
       <div className="section-header">
         <h1 className="section-title">Dashboard</h1>
         <p className="section-description">
-          Welcome to BuildManager. View your construction projects and financial overview.
+          Welcome to Studio1:1. View your construction projects and financial overview.
         </p>
       </div>
 
       <div className="flex flex-col md:flex-row justify-between gap-4">
         <Card className="w-full md:w-3/4">
           <CardHeader className="pb-2">
-            <CardTitle>Welcome to BuildManager</CardTitle>
+            <CardTitle>Welcome to Studio1:1</CardTitle>
             <CardDescription>Your construction management solution</CardDescription>
           </CardHeader>
           <CardContent>

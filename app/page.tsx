@@ -13,7 +13,7 @@ export default function Home() {
       <main className="flex-1">
         <div className="container flex flex-col items-center justify-center space-y-4 py-24 text-center">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-            Construction Management Software
+            Construction Management Software for Studio1:
           </h1>
           <p className="max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
             Streamline your construction projects with our comprehensive management solution

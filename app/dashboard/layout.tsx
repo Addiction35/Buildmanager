@@ -31,7 +31,7 @@ export default function DashboardLayout({
           </div>
           <main className="flex-1 space-y-4 p-4 md:p-8">{children}</main>
           <footer className="border-t py-4 px-8 text-center text-sm text-muted-foreground">
-            <p>© {new Date().getFullYear()} Construction Management. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Studio1:1. All rights reserved.</p>
           </footer>
         </div>
       </div>
