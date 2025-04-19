@@ -9,9 +9,8 @@ import { QueryClientProvider } from "@/components/query-client-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Construction Management Software",
+  title: "Studio1:1",
   description: "Comprehensive construction management solution",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

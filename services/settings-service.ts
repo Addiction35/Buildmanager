@@ -28,12 +28,12 @@ export interface SystemSettings {
 
 // Dummy data for settings
 const dummyCompanySettings: CompanySettings = {
-  name: "Construction Management Co.",
+  name: "Studio 1:1",
   logo: "/placeholder.svg?height=100&width=100",
   address: "123 Builder St, Construction City, CC 12345",
   phone: "(555) 123-4567",
-  email: "info@construction-management.com",
-  website: "www.construction-management.com",
+  email: "info@studio1:1.com",
+  website: "www.studio1:1.com",
   taxId: "12-3456789",
 }
 
@@ -50,9 +50,9 @@ const dummyUserPreferences: UserPreferences = {
 const dummySystemSettings: SystemSettings = {
   dateFormat: "MM/DD/YYYY",
   timeFormat: "12h",
-  currency: "USD",
+  currency: "KES",
   language: "en-US",
-  timezone: "America/New_York",
+  timezone: "Kenya/Nairobi",
 }
 
 // Get company settings

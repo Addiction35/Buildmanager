@@ -12,7 +12,7 @@ import { useToast } from "@/components/ui/use-toast"
 const formSchema = z.object({
   dateFormat: z.enum(["MM/DD/YYYY", "DD/MM/YYYY", "YYYY-MM-DD"]),
   timeFormat: z.enum(["12h", "24h"]),
-  currency: z.enum(["USD", "EUR", "GBP", "CAD", "AUD"]),
+  currency: z.enum(["USD", "EUR", "GBP", "CAD", "KES"]),
   language: z.enum(["en", "es", "fr", "de"]),
   timezone: z.string(),
 })
@@ -25,9 +25,9 @@ export function SystemSettingsForm() {
     defaultValues: {
       dateFormat: "MM/DD/YYYY",
       timeFormat: "12h",
-      currency: "USD",
+      currency: "KES",
       language: "en",
-      timezone: "America/New_York",
+      timezone: "Kenya/Nairobi",
     },
   })
 
